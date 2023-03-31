@@ -1,0 +1,22 @@
+*{
+margin: 50px 0 0 30px;
+}
+li {
+   box-sizing: border-box;
+    margin: 5px;
+    background-color: rgb(48, 82,239);
+    width: max-content;
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 10px 50px 10px 20px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+li:hover{
+    background-color:#339966;
+}

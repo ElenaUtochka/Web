@@ -1,0 +1,71 @@
+body {
+    background-image: url(../img/fon_task2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:first-child{
+    color: #fff;
+}
+form {
+    text-align: center;
+    border-radius: 30px;
+    width: 400px;
+    background-color: #fff;
+    padding: 60px 30px;
+    box-sizing: border-box;
+    font-size: 12px;
+
+}
+
+h2 {
+    text-align: left;
+}
+
+input {
+    margin: 10px 0;
+    padding: 5px 0;
+    border: none;
+}
+
+.pole>input:valid {
+    width: 100%;
+    border-bottom: 1px solid black;
+    outline: none;
+
+}
+
+.pole>input:invalid {
+    border-bottom: 1px solid black;;
+    outline: none;
+    width: 100%;
+}
+
+.pole>input:invalid:required {
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 100%;
+}
+
+
+.checkbox {
+    padding: 10px;
+}
+
+.knopka>input {
+    width: max-content;
+    background-color: rgb(48, 82, 239);
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
