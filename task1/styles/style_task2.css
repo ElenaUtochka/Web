@@ -68,4 +68,14 @@ input {
     color: #fff;
     border-radius: 5px;
     padding: 10px;
+        border: 1px solid #fff;
 }
+.knopka>input:hover {
+    width: max-content;
+    background-color: #fff;
+    color: rgb(48, 82, 239);
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid rgb(48, 82, 239);
+}
+
