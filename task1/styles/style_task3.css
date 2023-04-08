@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.screen {
+    font-family: "Press Start 2P", cursive;
+    background-color: black;
+    color: #33A236;
+    font-size: 24px;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.8;
+    z-index: -1;
+    position: fixed;
+}
+
+.screen:target{
+    z-index: 1;
+    opacity: 1;
+}
+
+.screen>p{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+
+.modal {
+    background-color: rgba(22, 22, 22, 0.8);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.message {
+    width: 70%;
+    height: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Bebas Neue';
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+.message>h2 {
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+.message>p {
+    font-size: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.btn {
+    padding: 10px;
+    border: 2px solid rgb(187, 186, 186);
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn>a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.yes {
+    background: #33A236;
+    background: -webkit-radial-gradient(center, #33A236, #235906);
+    background: -moz-radial-gradient(center, #33A236, #235906);
+    background: radial-gradient(ellipse at center, #33A236, #235906);
+}
+
+.no {
+    background: #E34023;
+    background: -webkit-radial-gradient(center, #E34023, #890305);
+    background: -moz-radial-gradient(center, #E34023, #890305);
+    background: radial-gradient(ellipse at center, #E34023, #890305);
+}
+
+.home {
+    background: url(../img/rabbit.png);
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    filter: invert(100%);
+    transform: rotatey(180deg);
+}
