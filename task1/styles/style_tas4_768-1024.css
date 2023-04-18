@@ -1,0 +1,17 @@
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+    margin: 5px;
+    justify-content: center;
+}
+
+nav{
+height: 120px;
+}
+
+.header2 {
+    font-size: 24px;
+}

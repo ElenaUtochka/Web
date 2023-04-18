@@ -1,17 +1,20 @@
-*{
+h2{
 margin: 50px 0 0 30px;
 }
+
 li {
    box-sizing: border-box;
-    margin: 5px;
+    margin: 5px 50px;
     background-color: rgb(48, 82,239);
     width: max-content;
     border-radius: 10px;
     list-style-type: none;
-    padding: 10px 50px 10px 20px;
+    padding: 10px 50px 10px 50px;
     text-align: center;
     border-bottom: 1px solid white;
+    color: #fff;
 }
+
 a{
     text-decoration: none;
     color: #fff;
@@ -20,3 +23,12 @@ a{
 li:hover{
     background-color:#339966;
 }
+
+.task4:hover{
+    background-color: rgb(48, 82,239);
+}
+
+.tsk4{
+    margin: 5px 0px 5px 80px;
+}
+

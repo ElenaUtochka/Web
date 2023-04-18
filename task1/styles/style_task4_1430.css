@@ -1,0 +1,50 @@
+main{
+    background-color: rgb(204, 206, 211);
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    height: 200px;
+}
+
+.logo{
+    font-size: 48px;
+}
+
+.logo>img {
+    width: 100px;
+}
+
+.navigation>a {
+ font-size: 24px;
+    padding: 20px 30px;
+    margin: 25px;
+}
+
+.container{
+    width: 100%;
+   max-width: 2050px;
+}
+
+figure {
+    width: 450px;
+    margin: 25px 30px;
+}
+
+figcaption {
+    height: 400px;
+}
+
+.img {
+
+    height: 280px;
+}
+
+.header3 {
+font-size: 36px;
+}
+
+.info {
+font-size: 20px;
+}
