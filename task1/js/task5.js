@@ -55,9 +55,9 @@ for (let obj of products) {
     let temp = (obj.price % 10);
     let temp2 = obj.price%100;
     let rub = "";
-    if (temp == 1 && temp2!=11) {
+    if (temp == 1 && temp2>20) {
         rub = "рубль"
-    } else if(temp==1 && temp2==11){
+    } else if(temp2>10 && temp2<20){
         rub="рублей"
     } else if (temp == 2 || temp == 3 || temp == 4) {
         rub = "рубля"
