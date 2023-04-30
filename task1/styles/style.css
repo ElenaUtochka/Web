@@ -2,7 +2,7 @@ h2{
 margin: 50px 0 0 30px;
 }
 
-li {
+dt, dd {
    box-sizing: border-box;
     margin: 5px 50px;
     background-color: rgb(48, 82,239);
@@ -20,7 +20,7 @@ a{
     color: #fff;
 }
 
-li:hover{
+dt:hover{
     background-color:#339966;
 }
 
@@ -28,7 +28,10 @@ li:hover{
     background-color: rgb(48, 82,239);
 }
 
-.tsk4{
+dd{
     margin: 5px 0px 5px 80px;
 }
 
+dd:hover{
+    background-color:#339966;
+}
